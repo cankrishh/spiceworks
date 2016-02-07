@@ -23,8 +23,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Dropwizard-Helloworld" />
+        <module name="dropwizard-helloworld" />
         <module name="dropwizard-todo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dropwizard-helloworld" target="1.8" />
+      <module name="dropwizard-todo" target="1.8" />
+      <module name="spiceworks" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

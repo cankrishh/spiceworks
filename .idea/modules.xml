@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dropwizard-helloworld/dropwizard-helloworld.iml" filepath="$PROJECT_DIR$/dropwizard-helloworld/dropwizard-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/dropwizard-todo/dropwizard-todo.iml" filepath="$PROJECT_DIR$/dropwizard-todo/dropwizard-todo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spiceworks.iml" filepath="$PROJECT_DIR$/spiceworks.iml" />
     </modules>
