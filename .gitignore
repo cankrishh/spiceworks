@@ -18,3 +18,4 @@ buildNumber.properties
 out
 gen
 todo-app
+rest-api-node/node_modules
