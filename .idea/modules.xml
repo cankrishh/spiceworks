@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/advance-java-practice/advance-java-practice.iml" filepath="$PROJECT_DIR$/advance-java-practice/advance-java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/dropwizard-helloworld/dropwizard-helloworld.iml" filepath="$PROJECT_DIR$/dropwizard-helloworld/dropwizard-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dropwizard-jdbi/dropwizard-jdbi.iml" filepath="$PROJECT_DIR$/dropwizard-jdbi/dropwizard-jdbi.iml" />
       <module fileurl="file://$PROJECT_DIR$/dropwizard-todo/dropwizard-todo.iml" filepath="$PROJECT_DIR$/dropwizard-todo/dropwizard-todo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-api-node/rest-api-node.iml" filepath="$PROJECT_DIR$/rest-api-node/rest-api-node.iml" />
       <module fileurl="file://$PROJECT_DIR$/restful-server/restful-server.iml" filepath="$PROJECT_DIR$/restful-server/restful-server.iml" />

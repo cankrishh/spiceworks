@@ -13,6 +13,7 @@
         <module>Dropwizard-Helloworld</module>
         <module>restful-server</module>
         <module>advance-java-practice</module>
+        <module>dropwizard-jdbi</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
