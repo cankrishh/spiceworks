@@ -10,13 +10,13 @@ import java.util.concurrent.Executors;
  */
 public class SingleThreadPool {
     public static void main(String[] args) {
-        ExecutorService executor = Executors.newFixedThreadPool(5);
+        ExecutorService executor = Executors.newFixedThreadPool(4);//newFixedThreadPool(5);
 
         //running 10 jobs
         for (int i = 0; i < 10; i++) {
             Runnable worker = new WorkerThread("Worker no = "+i);
-            worker.run();
-//            executor.execute(worker);
+           // worker.run();
+            executor.execute(worker);
         }
         executor.shutdown();
         while (!executor.isTerminated()) {
