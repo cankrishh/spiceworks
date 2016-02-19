@@ -40,7 +40,7 @@ public class SampleResource {
         return Response.ok().entity(cityid).build();
     }
     private String makeNewCitytable(int id){
-       // dao.createNewTable("delhi");
+       dao.createNewTable("delhi1");
        return dao.findNameById(id);
     }
 
