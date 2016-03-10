@@ -1,10 +1,6 @@
-
-
-
 module.exports = function(app){
     var musicians = require('../controllers/musician');
     app.get('/musicians', musicians.findAll);
-
     app.get('/musicians/:name', musicians.findByName);
     app.post('/musicians', musicians.add);
     app.put('/musicians/:id', musicians.update);

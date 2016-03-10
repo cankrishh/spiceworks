@@ -1,9 +1,8 @@
 
-
 module.exports  = function(app){
     var fk = require('../controllers/flipkart');
 
-    //app.get('/musicians', musicians.findAll);
+   // app.get('/musicians', musicians.findAll);
     app.get('/musicians/fk/:name', fk.findByNameInFk);
 
     //app.post('/musicians', musicians.add);

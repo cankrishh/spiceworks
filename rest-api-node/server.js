@@ -1,31 +1,25 @@
-var express = require('express'),
-    mongoose = require('mongoose'),
-    fs = require('fs');
-
-var mongoUri = 'mongodb://localhost/noderest';
-mongoose.connect(mongoUri);
-
-var db = mongoose.connection;
-db.on('error', function () {
-    throw new Error('unable to connect to database at ' + mongoUri);
-});
-
+var express = require('express');
+var path = require('path');
 
 var app=express();
-
+var port =2001;
 //app.configure(function(){
 //    app.use(express.bodyParser());
 //});
+app.set('views', path.join(__dirname, '/views'));
+app.set('view engine', 'ejs');
+
+app.use(express.static(__dirname + '../views'));
 
 
 app.get('/',function(req,res){
     res.send("This is sample test");
 });
-require('./models/musician');
-
+require('./controllers/express') (app);
 require('./routes/index')(app);
 require('./routes/users')(app);
-app.listen(2001);
 
-console.log("server started");
+app.listen(port);
+
+console.log("server started at "+port);
 
