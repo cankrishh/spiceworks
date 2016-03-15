@@ -3,6 +3,9 @@ package design.prototype;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
 /**
  * Created by omprakash.yadav on 13/03/16.
  */
@@ -14,7 +17,7 @@ public abstract class Shape implements Cloneable {
     protected String type;
 
     public abstract void draw();
-
+//    ObjectInputStream in=new ObjectInputStream(new FileInputStream("f.txt"));
     @Override
     public Object clone() {
         Object clone = null;
