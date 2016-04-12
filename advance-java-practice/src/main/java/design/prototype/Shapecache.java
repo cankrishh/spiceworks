@@ -5,7 +5,7 @@ import java.util.Hashtable;
 /**
  * Created by omprakash.yadav on 13/03/16.
  */
-public class ShapeCache {
+public class Shapecache {
 
     private static Hashtable<String, Shape> shapeMap = new Hashtable<>();
 

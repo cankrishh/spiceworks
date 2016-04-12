@@ -1,6 +1,5 @@
 package concurrency;
 
-import sun.jvm.hotspot.runtime.*;
 
 import java.lang.Thread;
 

@@ -1,6 +1,5 @@
 package collections.set;
 
-import apple.laf.JRSUIUtils;
 import lombok.Getter;
 import lombok.Setter;
 import org.junit.Assert;
