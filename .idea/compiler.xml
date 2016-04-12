@@ -29,14 +29,17 @@
         <module name="dropwizard-jdbi" />
         <module name="dropwizard-todo" />
         <module name="restful-server" />
+        <module name="restful-server-dropwizard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="advance-java-practice" target="1.8" />
       <module name="dropwizard-helloworld" target="1.8" />
+      <module name="Dropwizard-Helloworld" target="1.8" />
       <module name="dropwizard-jdbi" target="1.8" />
       <module name="dropwizard-todo" target="1.8" />
       <module name="restful-server" target="1.8" />
+      <module name="restful-server-dropwizard" target="1.8" />
       <module name="spiceworks" target="1.8" />
     </bytecodeTargetLevel>
   </component>
