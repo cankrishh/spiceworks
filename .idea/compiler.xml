@@ -24,6 +24,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="advance-java-practice" />
+        <module name="com.flipkart.todo" />
         <module name="Dropwizard-Helloworld" />
         <module name="dropwizard-helloworld" />
         <module name="dropwizard-jdbi" />
@@ -34,6 +35,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="advance-java-practice" target="1.8" />
+      <module name="com.flipakrt.projects" target="1.8" />
+      <module name="com.flipkart.todo" target="1.8" />
       <module name="dropwizard-helloworld" target="1.8" />
       <module name="Dropwizard-Helloworld" target="1.8" />
       <module name="dropwizard-jdbi" target="1.8" />
