@@ -1,4 +1,4 @@
-package generic;
+package Files.SaveImageURLToLocal;
 
 /**
  * Created by omprakash.yadav on 07/03/16.

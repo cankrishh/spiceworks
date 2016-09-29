@@ -23,14 +23,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="advance-java-practice" />
-        <module name="com.flipkart.todo" />
-        <module name="Dropwizard-Helloworld" />
         <module name="dropwizard-helloworld" />
-        <module name="dropwizard-jdbi" />
-        <module name="dropwizard-todo" />
         <module name="restful-server" />
-        <module name="restful-server-dropwizard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
