@@ -1,6 +1,4 @@
-package company.flipkart.problems;
-
-import javax.jws.soap.SOAPBinding;
+package company.flipkart.problems.designBuySellProducts;
 
 /**
  * Created by OMPRAKASH on 9/30/2016.

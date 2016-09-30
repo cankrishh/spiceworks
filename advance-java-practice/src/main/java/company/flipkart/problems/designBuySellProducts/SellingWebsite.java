@@ -1,8 +1,7 @@
-package company.flipkart.problems;
+package company.flipkart.problems.designBuySellProducts;
 
 import org.junit.Test;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.*;
 
 /**

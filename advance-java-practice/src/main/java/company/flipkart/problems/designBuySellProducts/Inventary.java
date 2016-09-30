@@ -1,6 +1,5 @@
-package company.flipkart.problems;
+package company.flipkart.problems.designBuySellProducts;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.*;
 
 import static javax.swing.UIManager.get;

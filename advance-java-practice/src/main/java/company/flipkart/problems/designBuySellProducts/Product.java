@@ -1,4 +1,4 @@
-package company.flipkart.problems;
+package company.flipkart.problems.designBuySellProducts;
 
 /**
  * Created by OMPRAKASH on 9/30/2016.
