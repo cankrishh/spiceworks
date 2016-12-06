@@ -13,7 +13,8 @@ buildNumber.properties
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/workspace.xml
+.idea/
 *.iml
 out
 gen

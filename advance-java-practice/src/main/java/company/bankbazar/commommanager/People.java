@@ -7,7 +7,7 @@ import lombok.Getter;
  * Created by OMPRAKASH on 9/30/2016.
  */
 @Getter
-@AllArgsConstructor
+
 public class People {
 
     private Employee employeeManager;

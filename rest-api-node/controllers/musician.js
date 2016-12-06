@@ -2,10 +2,20 @@
  * Created by omprakash.yadav on 16/02/16.
  */
 
+// exports.findAll = function(req, res){
+//     console.log(req);
+//     console.log(req.params);
+//     req.find({},function(err, results) {
+//         return res.send(results);
+//     });
+// };
 exports.findAll = function(req, res){
-    Musician.find({},function(err, results) {
-        return res.send(results);
-    });
+    res.send([{
+        "id": 1,
+        "name": "Max",
+        "band": "Maximum Pain",
+        "instrument": "guitar"
+    }]);
 };
 
 exports.add = function() {};
