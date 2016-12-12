@@ -13,7 +13,8 @@ import java.util.Optional;
 
 //Given a list of manager and employee information represented in hashMap entries {AAA->BBB,CCC,EEE},{CCC->DDD}.
 //Print company structure tree with proper indentations.
-
+// userid - albert3010
+// pass - newton3010
 public class CompanyStructure {
 
     @Test
@@ -94,7 +95,7 @@ public class CompanyStructure {
         if(list==null)
              return;
         for(String e : list){
-
+      //new StringBuilder(e).reverse();
         printTree(e, data, space+1);
 
         }
