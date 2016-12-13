@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by oyadav on 12/13/16.
  */
-//given 2 strings A and B. generate all possible solutions when B is merged in A.
+//given 2 strings A and B. generate all possible solutions when B is merged in A. print all.
 
 public class MergedABStrings {
 
@@ -17,8 +17,6 @@ public class MergedABStrings {
         String B = "xyz";
         char[] result = new char[A.length() + B.length()];
         mergedABStringsUtils(A, B, 0, 0, result, 0);
-
-
     }
 
     public void mergedABStringsUtils(String A, String B, int Aindex, int Bindex, char[] result, int Rindex) {
