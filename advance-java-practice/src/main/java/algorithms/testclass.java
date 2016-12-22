@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by OMPRAKASH on 9/8/2016.
  */
-public class TestClass {
+public class testclass {
 
     public static int  solve(int a[], int b[], int n){
 
