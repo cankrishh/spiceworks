@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false
+  },
+  "files": [
+    "core.ts",
+    "types.ts",
+    "binder.ts",
+    "checker.ts",
+    "program.ts",
+    "tsc.ts"
+  ]
+}
